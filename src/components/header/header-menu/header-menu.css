@@ -1,0 +1,60 @@
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    color: var(--Disable-Gray, #b1b1b1);
+    text-align: center;
+  }
+  
+  .menu-links p {
+    padding: 0px 14px 0px 14px;
+  }
+  
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 23px 69px 23px 69px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    border-bottom-width: 1.8px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-color: rgba(177, 177, 177, 0.16);
+  }
+  
+  .menu-logo {
+    color: #fff;
+    font-family: OptimaEL;
+    font-size: 18.37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu-phone {
+    display: flex;
+    color: #e3c37a;
+    font-family: Optimal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .line-logo {
+    background-color: #fff;
+    width: 1.5px;
+    height: 13px;
+    margin: 3.5px;
+  }
