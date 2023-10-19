@@ -1,4 +1,5 @@
 import "./header-info.css";
+import WomanPicture from "../../../assets/images/woman_header.png";
 
 export const HeaderInfo = () => {
   return (
@@ -27,7 +28,7 @@ export const HeaderInfo = () => {
         <div className="info-consulate-about"></div>
       </div>
       <div className="header-info-image">
-        <img src="/src/assets/images/woman_header.png" />
+        <img src={WomanPicture} />
       </div>
       <div className="advertising">
         <div className="advertising-block1">
