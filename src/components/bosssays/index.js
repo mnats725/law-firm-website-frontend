@@ -1,2 +1,0 @@
-export { BossSays } from "./bosssays";
-
