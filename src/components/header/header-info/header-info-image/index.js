@@ -1,0 +1,1 @@
+export { HeaderInfoImage } from "./header-info-image";
