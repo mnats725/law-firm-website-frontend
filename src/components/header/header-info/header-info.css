@@ -155,4 +155,42 @@
   left: -32px;
   width: 649.409px;
   height: 812px;
+  z-index: 1;
 }
+
+.paper {
+  position: relative;
+  top: -280px;
+  left: 220px;
+  z-index: 2;
+}
+
+.paper2 {
+  position: relative;
+  top: -600px;
+  left: -250px;
+  width: 150px;
+}
+
+.paper2 img {
+  width: 85%;
+}
+
+.paper3 {
+  position: relative;
+  top: -680px;
+  left: 220px;
+  transform: rotate();
+}
+
+.paper3 img {
+  height: 100px;
+}
+
+.Mini-images {
+  width: 0px;
+  height: 0px;
+  position: relative;
+}
+
+

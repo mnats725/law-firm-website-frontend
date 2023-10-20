@@ -1,6 +1,8 @@
 import "./header-info.css";
 import WomanPicture from "../../../assets/images/woman_header.png";
-
+import Paper from "../../../assets/images/paper.png";
+import Paper2 from "../../../assets/images/paper2.png";
+import Paper3 from "../../../assets/images/paper3.png";
 export const HeaderInfo = () => {
   return (
     <div className="header-info">
@@ -42,6 +44,17 @@ export const HeaderInfo = () => {
         <div className="advertising-block3">
           <h1>18</h1>
           <h2>Лет на рынке</h2>
+        </div>
+        <div className="Mini-images">
+          <div className="paper">
+            <img src={Paper} />
+          </div>
+          <div className="paper2">
+            <img src={Paper2} />
+          </div>
+          <div className="paper3">
+            <img src={Paper3} />
+          </div>
         </div>
       </div>
     </div>
