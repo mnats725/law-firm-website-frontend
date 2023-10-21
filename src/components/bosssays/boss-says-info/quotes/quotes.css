@@ -10,22 +10,3 @@
   width: 0px;
   height: 0px;
 }
-
-.quote1 {
-  position: relative;
-  top: -400px;
-  left: 530px;
-}
-
-.quote2 {
-  position: relative;
-  top: -260px;
-  left: -90px;
-}
-
-.painting {
-  position: relative;
-  height: 0px;
-  top: -410px;
-  left: 500px;
-}

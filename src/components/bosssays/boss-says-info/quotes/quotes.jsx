@@ -1,15 +1,13 @@
-import Painting from "../../../../assets/images/paiting.png";
+import { QuotesPaiting } from "./quotes-painting";
+import { QuotesItems } from "./quotes-items/quotes-items";
 
 import "./quotes.css";
 
 export const Quotes = () => {
   return (
     <div className="quotes">
-      <div className="quote1">„</div>
-      <div className="quote2">“</div>
-      <div className="painting">
-        <img src={Painting}></img>
-      </div>
+      <QuotesItems />
+      <QuotesPaiting />
     </div>
   );
 };
