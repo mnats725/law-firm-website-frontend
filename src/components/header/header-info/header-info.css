@@ -3,14 +3,6 @@
   flex-direction: row;
 }
 
-.info-consulate-text {
-  width: 100%;
-}
-
-.header-info-consulate {
-  padding: 69px;
-}
-
 .consulate-inputs {
   display: flex;
   flex-direction: row;
