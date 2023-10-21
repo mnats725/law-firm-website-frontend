@@ -1,0 +1,9 @@
+.header-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.consulate-inputs {
+  display: flex;
+  flex-direction: row;
+}
