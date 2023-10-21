@@ -1,0 +1,26 @@
+.says-info-who h1 {
+  color: var(--Text-Dark, #232228);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+}
+
+.says-info-who h2 {
+  color: var(--Disable-Gray, #b1b1b1);
+  /* Text Norm */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  margin: 5px 0 0 0;
+}
+
+.says-info-who {
+  display: flex;
+  flex-direction: column;
+  margin: 85px 0 0 0;
+}
