@@ -1,6 +1,7 @@
-import "./header.css";
 import { HeaderInfo } from "./header-info";
 import { HeaderMenu } from "./header-menu";
+
+import "./header.css";
 
 export const Header = () => {
   return (
