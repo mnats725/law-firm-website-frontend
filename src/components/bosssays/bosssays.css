@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Kornilow";
+  src: url("../../assets/fonts/Kornilow.ttf");
+}
+
+.boss-says {
+  display: flex;
+  justify-content: center;
+}
+
+.boss-says-container {
+  width: 1440px;
+  height: 591px;
+  display: flex;
+  flex-direction: row;
+}

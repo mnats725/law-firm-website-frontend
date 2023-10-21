@@ -1,0 +1,15 @@
+.boss-says-image {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--Light-Yellow, #e3c37a);
+  width: 376px;
+  height: 602px;
+  background-image: url(../../../assets/images/bg-bosssays.png);
+}
+
+.boss-says-image img {
+  position: relative;
+  left: 135px;
+}
