@@ -10,7 +10,7 @@ export const SpecialistPersones = () => {
     <div className="specialist-persones">
       <div className="persones-guy">
         <div className="persones-picture">
-          <img src={Guy1}></img>
+          <img src={Guy1} alt="guy1"></img>
         </div>
         <div className="persones-text">
           <h1>Кирилл Александрович</h1>
@@ -23,14 +23,14 @@ export const SpecialistPersones = () => {
           <h1>Любовь Юрьевна</h1>
           <h2>18 лет стажа</h2>
           <div className="persones-picture">
-            <img src={Guy2}></img>
+            <img src={Guy2} alt="Guy2"></img>
           </div>
         </div>
       </div>
 
       <div className="persones-guy">
         <div className="persones-picture">
-          <img src={Guy3}></img>
+          <img src={Guy3} alt="Guy3"></img>
         </div>
         <div className="persones-text">
           <h1>Иван Васильевич</h1>
@@ -43,7 +43,7 @@ export const SpecialistPersones = () => {
           <h1>Анна</h1>
           <h2>12 лет</h2>
           <div className="persones-picture-v2">
-            <img src={Guy4}></img>
+            <img src={Guy4} alt="Guy4"></img>
           </div>
         </div>
       </div>
