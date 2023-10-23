@@ -1,0 +1,88 @@
+.specialist-persones {
+  display: flex;
+  width: 814px;
+}
+
+.specialist-persones img {
+  width: 229px;
+  height: 312px;
+}
+
+.persones-picture-v2 img {
+  width: 68px;
+  height: 312px;
+}
+
+.persones-guy {
+  width: 229px;
+  height: 383px;
+  margin: 0 20px 0 0;
+}
+
+.persones-guy-v2 {
+  width: 229px;
+  height: 383px;
+  margin: 0 20px 0 0;
+}
+.persones-guy-v3 {
+  width: 68px;
+}
+
+.persones-picture {
+  background: #a4834e;
+  display: flex;
+  width: 229px;
+  height: 312px;
+}
+
+.persones-picture-v2 {
+  width: 68px;
+  height: 312px;
+  background: #a4834e;
+}
+
+.persones-text {
+  height: 70px;
+}
+
+.persones-text h1 {
+  color: var(--Text-Dark, #232228);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+.persones-text h2 {
+  color: var(--Disable-Gray, #b1b1b1);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 8px 0 0 0;
+}
+
+.persones-text-v2 h2 {
+  color: var(--Disable-Gray, #b1b1b1);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 8px 0 0 0;
+}
+
+.persones-text-v2 h1 {
+  color: var(--Text-Dark, #232228);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
