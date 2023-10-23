@@ -1,3 +1,122 @@
-.port {
-  width: 100px;
+.our-advantages-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -2px;
+}
+
+.our-advantages {
+  max-width: 1296px;
+  width: 100%;
+  display: inline-flex;
+  padding: 70px 70px 70px;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  background: url("../../assets/images/bg-advantages.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.advantages-why {
+}
+
+.why-1 {
+  color: var(--Disable-Gray, #b1b1b1);
+  text-align: center;
+  /* Text Norm */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  margin: 0 0 30px 0;
+}
+.why-2 {
+  display: flex;
+  flex-direction: row;
+  width: 582px;
+  height: 30px;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--Text-Dark, #232228);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px; /* 130% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.why-2 p {
+  color: var(--Dark-Yellow, #a4834e);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 10px 0 10px;
+}
+
+.advantages-why-blocks {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.why-block {
+  display: flex;
+  width: 306px;
+  height: 223px;
+  flex-shrink: 0;
+  border: 1px solid var(--BG-Gray, #d9d9d9);
+  background: var(--White, #fff);
+  flex-direction: column;
+  padding: 31px 25px 0 25px;
+}
+
+.why-block img {
+  width: 48px;
+  height: 48px;
+}
+
+.why-block h1 {
+  color: var(--Text-Dark, #232228);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 23px 0 16px 0;
+}
+
+.why-block h2 {
+  color: var(--Text-Dark, #232228);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.our-advantages button {
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e3c37a;
+  width: 200px;
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
