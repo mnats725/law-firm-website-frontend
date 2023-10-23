@@ -1,0 +1,42 @@
+.advantages-why-blocks {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.why-block {
+  display: flex;
+  width: 306px;
+  height: 223px;
+  flex-shrink: 0;
+  border: 1px solid var(--BG-Gray, #d9d9d9);
+  background: var(--White, #fff);
+  flex-direction: column;
+  padding: 31px 25px 0 25px;
+}
+
+.why-block img {
+  width: 48px;
+  height: 48px;
+}
+
+.why-block h1 {
+  color: var(--Text-Dark, #232228);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 23px 0 16px 0;
+}
+
+.why-block h2 {
+  color: var(--Text-Dark, #232228);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%;
+}
