@@ -1,5 +1,6 @@
 import { Header } from "../header";
 import { BossSays } from "../bosssays";
+import { OurAdvantages } from "../our-advantages";
 
 import "./app.css";
 
@@ -9,6 +10,7 @@ export const App = () => {
       <div className="container">
         <Header />
         <BossSays />
+        <OurAdvantages />
       </div>
     </div>
   );
