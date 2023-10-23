@@ -1,0 +1,19 @@
+.our-advantages-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -2px;
+}
+
+.our-advantages {
+  max-width: 1296px;
+  width: 100%;
+  display: inline-flex;
+  padding: 70px 70px 70px;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  background: url("../../assets/images/bg-advantages.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
