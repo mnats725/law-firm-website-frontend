@@ -1,0 +1,14 @@
+.specialist-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 1;
+}
+.specialist {
+  width: 1440px;
+  height: 542px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

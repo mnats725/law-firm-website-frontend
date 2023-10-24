@@ -1,6 +1,8 @@
 import { Header } from "../header";
 import { BossSays } from "../bosssays";
 import { OurAdvantages } from "../our-advantages";
+import { Specialist } from "../specialist";
+import { Trust } from "../trust";
 
 import "./app.css";
 
@@ -11,6 +13,8 @@ export const App = () => {
         <Header />
         <BossSays />
         <OurAdvantages />
+        <Specialist />
+        <Trust />
       </div>
     </div>
   );
