@@ -1,1 +1,1 @@
-export {Trust} from "./trust";
+export { Trust } from "./trust";

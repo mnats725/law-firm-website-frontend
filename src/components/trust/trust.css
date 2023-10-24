@@ -55,38 +55,3 @@
   letter-spacing: 6px;
   text-transform: uppercase;
 }
-
-.trust-blocks {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin: 20px 0 0 0;
-}
-
-.trust-blocks img {
-  height: 65px;
-}
-
-.trust-block {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  justify-content:flex-end;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid rgba(217, 217, 217, 0.13);
-}
-
-.trust-block p {
-  color: var(--White, #dadada);
-  text-align: center;
-  font-family: OptimaEL Text;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-  text-transform: uppercase;
-  margin: 40px 0 40px 0;
-}
