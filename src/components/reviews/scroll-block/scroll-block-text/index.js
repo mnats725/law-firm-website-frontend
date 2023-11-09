@@ -1,1 +1,1 @@
-export MustKnow from "./"
+export { ScrollBlockText } from "./scroll-block-text";
