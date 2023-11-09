@@ -3,6 +3,7 @@ import { BossSays } from "../bosssays";
 import { OurAdvantages } from "../our-advantages";
 import { Specialist } from "../specialist";
 import { Trust } from "../trust";
+import { Reviews } from "../reviews";
 
 import "./app.css";
 
@@ -15,6 +16,7 @@ export const App = () => {
         <OurAdvantages />
         <Specialist />
         <Trust />
+        <Reviews />
       </div>
     </div>
   );
