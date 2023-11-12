@@ -1,11 +1,15 @@
 import "./info-contacts.css";
 
+import Punkt from "../../assets/images/punkt.png";
+
 export const InfoContacts = () => {
   return (
     <div className="info-contacts-container">
       <div className="info-contacts">
         <div className="map">
-          <div className="punkt"></div>
+          <div className="punkt">
+            <img src={Punkt} alt="punkt"></img>
+          </div>
         </div>
         <div className="contacts">
           <h2>
@@ -16,17 +20,17 @@ export const InfoContacts = () => {
           </h1>
           <div className="contacts-src">
             <div className="left-contacts">
-              <h2>
-                Телефон<span>+7 (999) 890 09 98</span>
-              </h2>
-              <h2>
+              <h4>
+                Телефон<span className="span-number">+7 (999) 890 09 98</span>
+              </h4>
+              <h4>
                 Адрес<span>Москва, ул. Арбат, д. 1</span>
-              </h2>
+              </h4>
             </div>
             <div className="right-contacts">
-              <h2>
+              <h4>
                 Почта<span>Info@ya.ru</span>
-              </h2>
+              </h4>
             </div>
           </div>
           <h3>Нужна консультация?</h3>

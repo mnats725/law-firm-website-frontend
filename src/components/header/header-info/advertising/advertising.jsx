@@ -21,13 +21,13 @@ export const Advertising = () => {
       </div>
       <div className="Mini-images">
         <div className="paper">
-          <img src={Paper} />
+          <img src={Paper} alt="paper" />
         </div>
         <div className="paper2">
-          <img src={Paper2} />
+          <img src={Paper2} alt="paper2" />
         </div>
         <div className="paper3">
-          <img src={Paper3} />
+          <img src={Paper3} alt="paper3" />
         </div>
       </div>
     </div>
