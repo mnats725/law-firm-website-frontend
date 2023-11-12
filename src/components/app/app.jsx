@@ -6,6 +6,7 @@ import { Trust } from "../trust";
 import { Reviews } from "../reviews/reviews";
 import { MustKnow } from "../must-know";
 import { SubscribeUs } from "../subscribeus";
+import {InfoContacts} from "../info-contacts";
 
 import "./app.css";
 
@@ -21,6 +22,7 @@ export const App = () => {
         <Reviews />
         <MustKnow />
         <SubscribeUs />
+        <InfoContacts />
       </div>
     </div>
   );
