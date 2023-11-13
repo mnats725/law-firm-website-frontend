@@ -1,0 +1,10 @@
+.map {
+  width: 50%;
+  background: url(../../../assets/images/contacts-map.png),
+    lightgray 50% / cover no-repeat;
+  background-position: center center;
+}
+
+.punkt {
+  margin: 198px 0 0 120px;
+}

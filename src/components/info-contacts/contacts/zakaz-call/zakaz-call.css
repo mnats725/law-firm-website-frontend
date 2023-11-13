@@ -1,0 +1,36 @@
+.zakaz-call input {
+  color: #b1b1b1;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  height: 39px;
+  width: 294px;
+  padding: 0 20px 0 0;
+}
+
+.zakaz-call button {
+  display: flex;
+  height: 44px;
+  margin: 0 0 0 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e3c37a;
+  width: 200px;
+  background: #00000000;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.zakaz-call {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0 0 0;
+}
