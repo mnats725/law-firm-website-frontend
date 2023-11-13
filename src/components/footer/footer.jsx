@@ -3,7 +3,7 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <div className="footer">
-      <span></span>
+      <span>© Все права защищены 2023</span>
     </div>
   );
 };

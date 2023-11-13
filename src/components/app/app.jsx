@@ -7,6 +7,7 @@ import { Reviews } from "../reviews/reviews";
 import { MustKnow } from "../must-know";
 import { SubscribeUs } from "../subscribeus";
 import {InfoContacts} from "../info-contacts";
+import { Footer } from "../footer";
 
 import "./app.css";
 
@@ -23,6 +24,7 @@ export const App = () => {
         <MustKnow />
         <SubscribeUs />
         <InfoContacts />
+        <Footer />
       </div>
     </div>
   );
